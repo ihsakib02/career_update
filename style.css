@@ -20,7 +20,7 @@ body {
 }
 
 .fixImgSize{
-    background-color: #D6CFC4;
+    background-color: #eee8dd;
 }
 
 .fixedImage{
@@ -44,4 +44,8 @@ body {
     padding: 2px 0px 2px 0px ;
     text-align: center;
     margin-top: 50px;
+}
+.careerUpdateCard{
+    background-color: #eee8dd;
+
 }
