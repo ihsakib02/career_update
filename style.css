@@ -16,16 +16,20 @@ body {
     border-radius: 20%;
     background-position: center;
 }
+
 .fixImgSize{
-background-color: #D6CFC4;
-    
+    background-color: #D6CFC4;
 }
+
 .fixedImage{
-    /* background-color: #D6CFC4;
-    text-align: center; */
     background-image: url(image/Asset\ 1.png);
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center;
-    opacity: 40%;
-}
+            
+    }
+    .fixedImgtext{
+        text-align: center;
+        /* padding-top: 50px; */
+        padding-top: 15rem;
+    }
