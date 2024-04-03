@@ -2,8 +2,30 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    background-color: #D6CFC4;
 }
 
 .main-navbar {
     background-color: #D6CFC4;
+}
+
+
+.borderStyle{
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 20%;
+    background-position: center;
+}
+.fixImgSize{
+background-color: #D6CFC4;
+    
+}
+.fixedImage{
+    /* background-color: #D6CFC4;
+    text-align: center; */
+    background-image: url(image/Asset\ 1.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    opacity: 40%;
 }
