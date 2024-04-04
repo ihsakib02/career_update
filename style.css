@@ -36,16 +36,28 @@ body {
         padding-top: 10rem;
     }
 .info_cards{
-    background-color: #D6CFC4;
+    background-color: #eee8dd;
 }
-.careerUpdateTitle{
-    background-color: D6CFC4;
+.cardTitleUpdate{
+    background-color: #D6CFC4;
     color: black;
     padding: 2px 0px 2px 0px ;
     text-align: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
-.careerUpdateCard{
+.cardUpdateSec{
     background-color: #eee8dd;
 
+}
+
+.card_see_more{
+    float: right;
+}
+.card_see_more a{
+    text-decoration: none;
+    color: #b3d7ed;
+    background-color: #0e5ef1;
+    padding: 4px;
+    border: 1px solid thistle;
+    border-radius: 5px;
 }
