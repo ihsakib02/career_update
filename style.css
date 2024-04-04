@@ -61,3 +61,7 @@ body {
     border: 1px solid thistle;
     border-radius: 5px;
 }
+.contact_style{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
