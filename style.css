@@ -69,44 +69,25 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #loader {
-    border: 12px solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 12px solid #444444;
-    width: 70px;
-    height: 70px;
-    animation: spin 1s linear infinite;
+/* If only Needed the background color */
+.navbgColor:hover{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
 }
 
-.center {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+
+
+.link-hover:hover{
+    text-decoration: underline;
+    color: blue;
 }
 
-@keyframes spin {
-    100% {
-        transform: rotate(360deg);
-    }
-}  */
+
+
+
+
+
+
+
