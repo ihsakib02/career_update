@@ -91,23 +91,36 @@ body {
 /* Profile Section Style here */
 
 .profileMainDiv{
-    margin: 0 auto;
     background-color: #b3d7ed;
-    border: 1px solid gray;
-    padding-top: 2rem;
-    margin: 0 auto;}
+    /* border: 1px solid gray; */
+    /* padding-top: 2rem;
+    margin: 0 auto; */
+}
 .profileinfoDiv{
-    padding-left: 5rem;
-    margin-top: 5rem;
+/* margin: 0 25% */
+
 }
 .profileImg{
-    /* display: flex; */
-    
-        display: block;
-        margin: auto;
+    /* display: block; */
+     /* margin: auto; */
      }
+.infoDiv{
+    /* display: inline-flex;
+    margin: auto; */
 
+}
 
-.profileImg img{
-/* justify-content: center; */
+.prof_infoTitle{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+.prof_info_colon{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.prof_info{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+
 }
