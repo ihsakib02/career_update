@@ -91,36 +91,78 @@ body {
 /* Profile Section Style here */
 
 .profileMainDiv{
-    background-color: #b3d7ed;
-    /* border: 1px solid gray; */
-    /* padding-top: 2rem;
-    margin: 0 auto; */
-}
-.profileinfoDiv{
-/* margin: 0 25% */
+    /* background-color: #b3d7ed; */
+    /* padding: 5px; */   
+     margin-top: 3rem;
+
+  }
+  .profileSecDiv{
+    
+  }
+
+.profileinfoMdiv{
+    /* background-color: azure; */
+    /* border: 3px solid gray;
+    border-radius: 1rem;
+    margin-bottom: 2rem; */
+
 
 }
-.profileImg{
-    /* display: block; */
-     /* margin: auto; */
-     }
-.infoDiv{
-    /* display: inline-flex;
-    margin: auto; */
+.profileInfo{
+    /* padding-bottom: 5rem; */
+        border: 3px solid gray;
+            border-radius: 1rem;
+                margin-bottom: 2rem;
+                
+}
+.profImgDiv{
+    /* background-color: #0e5ef1; */
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
 
 }
+.alignCenterProfile{  
+ 
+    display: block;
+    margin: auto;
+        /* margin-top: 5rem; */
+}
+
+.profileInfo{
+
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        align-items: inherit;
+        /* height: 100vh; */
+        /* This makes it take up the full viewport height */
+        /* text-align: center; */
+}
+
 
 .prof_infoTitle{
-    font-size: 18px;
+    
     font-family:'Times New Roman', Times, serif;
 }
 .prof_info_colon{
-    font-size: 18px;
     font-family:'Times New Roman', Times, serif;
 
 }
 .prof_info{
-    font-size: 18px;
+    
     font-family:'Times New Roman', Times, serif;
 
+}
+
+.infoDiv{
+    padding-top: 2rem;
+    /* padding-bottom: 2rem; */
+    padding-left: 15px;
+    
+}
+
+.paddingzero{
+    /* padding: none;
+    margin: none */
 }
