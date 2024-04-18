@@ -60,10 +60,10 @@
 
 <!-- Profile Section. After updating all information in profile update section, all data will be shown there -->
     
-    <section class="updateInfoMain">
+    <!-- <section class="updateInfoMain">
         <div class="updateSecDiv">
-            <div class="updateinfoMdiv">
-
+            <div class="updateinfoMdiv"> -->
+                
                 <!-- <div class="col-md-2"></div>
                 <div class="profileInfo col-md-8">
                 <div class="profImgDiv">
@@ -127,15 +127,89 @@
 
                 </div>
                                 <div class="col-md-2" ></div> -->
-
+<!-- 
             </div>
         </div>
+    </section> -->
+
+
+
+    <section class="updateFrom">
+        <div class="form">
+            
+    <form action="../htmFiles/profile.html">
+        <h2>Update Information</h2>
+        
+        <div class="form-group fullname">
+          <label for="fullname">Name</label>
+          <input type="text" id="fullname" placeholder="Enter your full name" required>
+        </div>
+            <div class="form-group gender">
+            <label for="gender">Gender</label>
+            <select id="gender" required>
+              <option value="" selected disabled>Select your gender</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <!-- <option value="Other">Other</option> -->
+            </select>
+          </div>
+
+        <div class="form-group Roll">
+          <label for="Roll">Roll No.</label>
+          <input type="number" maxlength="6" id="Roll" placeholder="Enter your board roll no." required>
+        </div>
+        <div class="form-group Roll">
+          <label for="registretion">Registretion No.</label>
+          <input type="number" maxlength="10" id="registretion" placeholder="Enter your registretion no. " required>
+        </div>
+
+
+        <div class="form-group department" >
+            <label for="department">Department</label>
+            <select id="department" required>
+              <option value="" selected disabled>Select your department</option>
+              <option value="cmt">Computer Science & Technology</option>
+              <option value="civil">Civil Technology</option>
+              <option value="ent">Electronics Technology</option>
+              <option value="et">Electrical Technology</option>
+              <option value="aidt">Architecture and interior design technology</option>
+            </select>
+          </div>
+
+        <div class="form-group Shift" >
+            <label for="Shift">Shift</label>
+            <select id="Shift" required>
+              <option value="" selected disabled>Select your Shift</option>
+              <option value="Morning">Morning (1st Shift)</option>
+              <option value="Day">Day (2nd Shift)</option>
+            </select>
+        </div>
+        <div class="form-group date">
+          <label for="date">Birth Date</label>
+          <input type="date" id="date" placeholder="Select your date">
+        </div>   
+
+        <div class="form-group email">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter your email address " required>
+        </div>
+        <!-- <div class="form-group password">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password" required>
+        </div> -->
+        <div class="form-group Mobile">
+          <label for="Mobile">Mobile</label>
+          <input type="tel" id="Mobile" max="11" maxlength="11" placeholder="Enter your mobile" required>
+          <!-- <i id="pass-toggle-btn" class="fa-solid fa-eye"></i> -->
+        </div>
+
+        <div class="form-group submit-btn">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+  
+        </div>
     </section>
-
-
-
-
-
 
 
 
@@ -298,3 +372,27 @@
                     <span class="prof_info_colon"> : </span>
                     <span class="prof_info"> Morning Shift</span>
                 </div> -->
+
+
+
+
+<!--                 
+                <script>
+                    function previewFile() {
+                        var preview = document.querySelector('img');
+                        var file    = document.querySelector('input[type=file]').files[0];
+                        var reader  = new FileReader();
+                      
+                        reader.onloadend = function () {
+                          preview.src = reader.result;
+                        }
+                      
+                        if (file) {
+                          reader.readAsDataURL(file);
+                        } else {
+                          preview.src = "";
+                        }
+                      }
+                    </script>
+                      <input type="file" onchange="previewFile()"><br>
+                      <img src="" width="100px" height="" alt="Image preview..."> -->
