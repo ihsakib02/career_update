@@ -96,18 +96,15 @@ body {
      margin-top: 3rem;
 
   }
-  .profileSecDiv{
+  /* .profileSecDiv{
     
-  }
+  } */
 
-.profileinfoMdiv{
-    /* background-color: azure; */
-    /* border: 3px solid gray;
-    border-radius: 1rem;
-    margin-bottom: 2rem; */
+/* .profileinfoMdiv{
 
 
-}
+
+} */
 .profileInfo{
     /* padding-bottom: 5rem; */
         border: 3px solid gray;
@@ -144,6 +141,7 @@ body {
 .prof_infoTitle{
     
     font-family:'Times New Roman', Times, serif;
+    font-weight:00;
 }
 .prof_info_colon{
     font-family:'Times New Roman', Times, serif;
@@ -152,11 +150,12 @@ body {
 .prof_info{
     
     font-family:'Times New Roman', Times, serif;
+    font-weight: lighter;
 
 }
 
 .infoDiv{
-    padding-top: 2rem;
+    padding-top: .5rem;
     /* padding-bottom: 2rem; */
     padding-left: 15px;
     
