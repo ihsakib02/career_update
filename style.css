@@ -9,6 +9,23 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+
+   /* Style for the scroll to top button */
+   .scroll-to-top {
+    display: none; /* Initially hidden */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff; /* Blue color, change as needed */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 30%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 99; /* Ensure it's on top of other elements */
+  }
 .main-navbar {
     background-color: #D6CFC4;
 }
@@ -272,20 +289,3 @@ body {
   }
 
 
-
-   /* Style for the scroll to top button */
-   .scroll-to-top {
-    display: none; /* Initially hidden */
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #007bff; /* Blue color, change as needed */
-    color: #fff; /* Text color */
-    border: none;
-    border-radius: 30%;
-    width: 3rem;
-    height: 3rem;
-    font-size: 24px;
-    cursor: pointer;
-    z-index: 99; /* Ensure it's on top of other elements */
-  }
