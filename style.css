@@ -75,8 +75,8 @@ body {
 .card-footer{
   display: block;
 }
-.updatedAT{
-}
+/* .updatedAT{
+} */
 .card_see_more{
     float: right;
 
@@ -264,7 +264,7 @@ body {
   border: none;
   border-radius: 10px;
 
-  background-color: ;
+  /* background-color: ; */
   border-left: none;
 }
 
