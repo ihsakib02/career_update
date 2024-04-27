@@ -127,7 +127,6 @@ body {
     /* background-color: #b3d7ed; */
     /* padding: 5px; */   
      margin-top: 3rem;
-
   }
   /* .profileSecDiv{
     
@@ -153,14 +152,12 @@ body {
 
 }
 .alignCenterProfile{  
- 
     display: block;
     margin: auto;
         /* margin-top: 5rem; */
 }
 
 .profileInfo{
-
         display: block;
         flex-direction: row;
         justify-content: center;
@@ -179,17 +176,14 @@ body {
         border-radius: 10px;
         margin: .5rem;
         padding: px;
-
 }
 
 .prof_infoTitle{
-    
     font-family:'Times New Roman', Times, serif;
     font-weight:bold;
     /* border-right: 1px solid black; */
     width: 40%;
     padding-left: .5rem;
-    
 }
 .prof_info{
     
@@ -198,8 +192,6 @@ body {
     width: 60%;
     padding-left: .4rem;
     border-left: 1px solid black;
-
-
 }
 
 .careerMainDiv{
@@ -216,7 +208,6 @@ body {
       border: 3px solid gray;
       border-radius: 1rem;
       margin-bottom: 2rem;
-
       display: block;
       flex-direction: row;
       justify-content: center;
@@ -231,15 +222,13 @@ body {
       /* padding-bottom: 2rem; */
     /* padding-left: 15px;
         padding-top: .5rem; */
-        border: 1px solid black;
-      
+        border: 1px solid black; 
         border-radius: 10px;
         margin: .5rem;
         padding: px;
 }
 
 .career_infoTitle{
-    
   font-family:'Times New Roman', Times, serif;
   font-weight:bold;
   /* border-right: 1px solid black; */
@@ -248,14 +237,11 @@ body {
   
 }
 .career_info{
-  
   font-family:'Times New Roman', Times, serif;
   font-weight: lighter;
   width: 60%;
   padding-left: .4rem;
   border-left: 1px solid black;
-
-
 }
 
 .inputFiled{
@@ -269,7 +255,6 @@ body {
 }
 
 /* update profile section design */
-
 
 /* * {
     margin: 0;
@@ -366,3 +351,13 @@ body {
   }
 
 
+/* Attachment section design here */
+
+.comName{
+  /* padding-bottom: -50px ; */
+}
+.estDate{
+  font-size: smaller;
+  font-weight:300 ;
+  padding-top: -500px;
+}
