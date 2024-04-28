@@ -361,3 +361,13 @@ body {
   font-weight:300 ;
   padding-top: -500px;
 }
+
+
+.link-primary{
+  text-decoration: none;
+}
+
+.courseDuretion{
+font-size: small;
+padding-left: 2px;
+}
