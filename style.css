@@ -368,6 +368,21 @@ body {
 }
 
 .courseDuretion{
-font-size: small;
+font-size: smaller;
 padding-left: 2px;
 }
+
+
+
+.activeHover{
+  background-color: white;
+  border-radius: 15px;
+  opacity:;
+}
+.courseInfo{
+  
+}
+
+.attCardSliderMain
+.attCardinfoMain
+.attCardCoursesMain
