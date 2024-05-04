@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+        <!-- fontaewsome -->
+        <script src="https://kit.fontawesome.com/aa46b244f8.js" crossorigin="anonymous"></script>
+        <!-- Bootstrap cdn css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,8 +18,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            overflow: hidden;
+            height: auto;
+            overflow:visible ;
         }
         
         .container {
@@ -22,9 +27,11 @@
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            width: 300px;
+            width: 400px;
             text-align: center;
             animation: fadeIn 0.5s ease forwards;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
         }
         
         h2 {
@@ -88,33 +95,41 @@
 <body>
     <div class="container">
         <h2>Sign Up</h2>
-        <form action="#" method="POST">
+        <form action="./logIN.html" method="">
             <div class="input-group">
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" required>
+                <label for="username">Roll</label>
+                <input type="number" minlength="6" maxlength="6" id="username" name="username" placeholder="Roll will be used as Username" required>
+            </div>
+            <div class="input-group">
+                <label for="registretion">Registretion</label>
+                <input type="registretion" id="registretion" name="registretion" required>
             </div>
             <div class="input-group">
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" required>
             </div>
             <div class="input-group">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" required>
+                <label for="password">Confirm Password</label>
+                <input type="password" id="password" name="password" required>
             </div>
-            <div class="input-group">
-                <label for="Date of birth">Date of Birth</label>
-                <input type="date" name="" id="" required>
+            <div class="checkbox">
+                <input type="checkbox" name="terms" id="terms" required>
+                <label for="terms">Accept All the terms ans Condition</label>
             </div>
-            <div class="input-group">
-                <label for="email">Semester</label>
-                <input type="text" name="semester" id="semester" required>
-            </div>
-            <div class="input-group">
-                <label for="email">Department</label>
-                <input type="text" name="semester" id="semester" required>
-            </div>
-            <a href="../htmFiles/logIN.html"><p class="btn" style="font-size: 30px; font-weight: 600;text-shadow: #000; " >Sign up</p></a>
+            <!-- <a href="../htmFiles/logIN.html"><p class="btn" style="font-size: 30px; font-weight: 600;text-shadow: #000; " >Sign up</p></a> -->
+            <div class="form-group submit-btn mt-3 mb-4 ">
+                <!-- <label for="submit"></label> -->
+                <input type="submit"  class="p-2 fs-3 text-light" style="border: none; border-radius: 10px; background-color: #3498db">
+              </div>
         </form>
+        <p><a href="../htmFiles/signup.html">Already have a account? <br> Sign-in Now</a></p>
+
     </div>
 </body>
+<!-- bootsrap cdn js file -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<!-- external js file -->
+<script src="script.js"></script>
 </html>

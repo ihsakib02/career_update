@@ -20,6 +20,35 @@
  
 
 <body class="body_bg ">
+       
+    <!-- Scroll to top button -->
+<button class="scroll-to-top" onclick="scrollToTop()">&#8593;</button>
+
+<!-- Your website content goes here -->
+<!-- For testing purposes, a long content to make scrolling necessary -->
+<script>
+// Function to scroll to top when the button is clicked
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth' // Smooth scrolling animation
+  });
+}
+
+// Show the scroll to top button when scrolling down
+window.onscroll = function() {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.querySelector('.scroll-to-top').style.display = "block";
+  } else {
+    document.querySelector('.scroll-to-top').style.display = "none";
+  }
+}
+</script>
+
 
     <section class="main-navbar  sticky-top container-fluid"> 
         <nav class="navbar main-nav navbar-expand-sm ">
