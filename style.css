@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .body_bg{
-    background-color: #f7f5f0;
+    background-color: #EEF9FF;
     font-family: "Roboto", sans-serif;
 
 }
@@ -27,7 +27,7 @@ body {
     z-index: 99; /* Ensure it's on top of other elements */
   }
 .main-navbar {
-    background-color: #D6CFC4;
+    background-color: #6cd7fe; /* D6CFC4*/
 }
 
 
@@ -39,7 +39,7 @@ body {
 }
 
 .fixImgSize{
-    background-color: #f7f5f0;
+    background-color: #EEF9FF;
 }
 
 .fixedImage{
@@ -55,17 +55,17 @@ body {
         padding-top: 10rem;
     }
 .info_cards{
-    background-color: #f7f5f0;
+    background-color: #EEF9FF; /*F7F5F0*/
 }
 .cardTitleUpdate{
-    background-color: #D6CFC4;
+    background-color: #6cd7fe;
     color: black;
     padding: 2px 0px 2px 0px ;
     text-align: center;
     /* margin-top: 50px; */
 }
 .cardUpdateSec{
-    background-color: #f7f5f0;
+    background-color: #EEF9FF;
 
 }
 
